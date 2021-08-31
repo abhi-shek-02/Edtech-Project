@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #4794ee;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    font-family: 'Yeon Sung' ;
+    /* padding: 16px 14px; */
+    padding: 16px;
+    min-height: 4rem;
+    
+    
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 28px;
+    margin-right: 40px;
+ }
+ #logo img{
+     height: 25px;
+ }
+nav ul{
+    display: flex;
+    margin-left: 543px;
+    flex-direction: row;
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+}
+ a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    padding: 24px 20px;
+    font-size: 16px;
+   
+
+}
+a:hover{
+    color: rgb(212, 212, 212);  
+}
+.container{
+    max-width: 100%;
+    height: 100%;
+    border: 2px solid cyan; 
+}
+ #home::before{
+    content: "";
+    background: url('img/bkg1.png') no-repeat center center/cover;
+    position: absolute;
+    /* z-index: -1; */
+    height: 100%;
+    width: 100%;
+    opacity: 0.89;
+    border: 2px solid purple;
+} 
+#home h1{
+    color: rgb(114, 98, 255);
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+#home p{
+    color: rgb(83, 244, 255);
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.5rem;
+    
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    
+}    
